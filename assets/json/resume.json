@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Youness El Brag",
+    "label": "Research Engineer",
+    "image": "",
+    "email": "younsselbraf@gmail.com",
+    "phone": "(212) 77583-3517",
+    "url": "https://deep-matter.github.io/Profile/",
+    "summary": "I am moroccan Research Engineer AI/ML exploer the design and modeling System AI wthin Mathematics and Physic ",
+    "location": {
+      "address": "Houmate Oda Derb Boussife Nr 27",
+      "postalCode": "92152",
+      "city": "Kasr El Kebire",
+      "countryCode": "MA",
+      "region": "Tanger-Tetouan"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "@ElbragYouness",
+        "url": "https://twitter.com/ElbragYouness"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Department of Allied Medical Sciences-Radiologic Technology, JUST University",
+      "position": "Research Engineer of AI/ML",
+      "url": "https://www.just.edu.jo/",
+      "startDate": "2022-05-22",
+      "endDate": "Present",
+      "summary": "Exploring advance Techniques in AI/ML within BioMedical Engineering and Designed new approchae Method to improve CDA system .",
+      "highlights": [
+        "Theory of Deep learning"
+      ]
+    },
+
+    {
+      "name": "The national university of Water and Environmental Engineering",
+      "position": "Machine learning Engineer || Intern",
+      "url": "https://nuwm.edu.ua/",
+      "startDate": "2019-03-12",
+      "endDate": "2022-02-15",
+      "summary": "Developed a Classical Computer Vision models and Productized the models to enhance the Lab productivity wthin MLOps.",
+      "highlights": [
+        "Theory Fundation of Computer vision || Software Engineering"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Multi-disciplinary faculty Larache, University Abdelmalek Essaadi Tetouan ",
+      "url": "https://www.fpl.ac.ma/site/",
+      "area": "Embedded Systems",
+      "studyType": "Master",
+      "startDate": "2019-09-13",
+      "endDate": "2022-07-21",
+      "score": "",
+      "courses": [
+        "Introduction to Computer Architecture",
+        "Introduction to Embedded Systems" ,
+        "C/C++ Programming II : Dynamic Memory and File I/O Concepts",
+        "Embedded Systems Hardware Design",
+        "Embedded Controller Programming with Embedded C",
+        "Embedded Controller Programming for Real-Time Systems",
+        "Introduction to IoT and Embedded Systems",
+        "Databases and Information Systems ",
+        "Embedded Linux",
+        "FPGA Design Fundamentals",
+        "Introduction to Autonomous Vehicles",
+        "Algorithm Theory ",
+        "Image Processing and Computer Graphics",
+        "Signal Processing",
+        "Software Engineering"
+      ]
+    },
+
+    {
+      "institution": "Multi-disciplinary faculty Larache, University Abdelmalek Essaadi Tetouan ",
+      "url": "https://www.fpl.ac.ma/site/",
+      "area": "Mathematics and Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2016-09-20",
+      "endDate": "2019-07-25",
+      "score": "",
+      "courses": [
+        "Mathematics I ",
+        "Analysis",
+        "Mechanics I",
+        "Algebra",
+        "Mathematics II",
+        "Computer Programming I",
+        "Probability & Statistics",
+        "Complex Analysis",
+        "Numerical Analysis",
+        "Mathematical Methods I",
+        "Linear Algebra",
+        "Metric Spaces",
+        "Mathematical Programming",
+        "Mathematical Statistics",
+        "Functional Analysis",
+        "Linear Statistical Models",
+        "Discrete Mathematics",
+        "Numerical Linear Algebra",
+        "Optimisation",
+        "Time Series Analysis",
+        "Mathematical Statistics",
+        "Systems Software"
+      ]
+    }
+  ],
+
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": []
+  ,
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}

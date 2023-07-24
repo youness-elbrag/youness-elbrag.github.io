@@ -1,0 +1,33 @@
+github_users:
+  - deep-matter
+
+github_repos:
+  - deep-matter/Attention_Filter_Gate
+  - deep-matter/AttentionUnetPlus_EnsembleLearning
+  - deep-matter/awesome-all-webDEV
+  - deep-matter/awesome-design-patterns
+  - deep-matter/Big-DATA-ETL-Process
+  - deep-matter/BioMedical-image-processing
+  - deep-matter/blog_os_Rust
+  - deep-matter/End-to-End-integration-Model
+  - deep-matter/From-0-to-Research-Scientist-resources-guide
+  - deep-matter/machine_learning_complete
+  - deep-matter/Made-With-ML
+  - deep-matter/Mathematics-for-ML
+  - deep-matter/Medical_Application_Streamlit
+  - deep-matter/Nano-AutoGrad
+  - deep-matter/Nano-LVM
+  - deep-matter/open-llms
+  - deep-matter/Post-Processing_Brast2020-Tumor-Segementation
+  - deep-matter/project-based-learning
+  - deep-matter/pytorch_leanring_framwork_from_scratch
+  - deep-matter/REST_API_Django-TDD
+  - deep-matter/RSNA-End-to-End-Predicting-Cancer-probability
+  - deep-matter/severTCPC-
+  - deep-matter/SMS-python-Sender
+  - deep-matter/starcoder
+  - deep-matter/TImer-NE555-astabel-
+  - deep-matter/TransFFT-MILCoronaries-Arteries
+  - deep-matter/TransformersNumpy-Version
+  - deep-matter/VisionTransformer-Coronary-Artery
+  - deep-matter/webBackend-django
