@@ -11,7 +11,7 @@ nav_order: 5
 
 ### Event Hosted by TFUG Speaker Youness El Brag
 
-here are the full representation and slides with codes, in the community :
+here are the full representation and slides with codes, in the community TFUG:
 
 
 1. Kaggle:
