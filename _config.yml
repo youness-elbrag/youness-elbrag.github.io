@@ -20,7 +20,7 @@ icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name
 
 url: https://youness-elbrag.github.io/
  # the base hostname & protocol for your site
-baseurl: /Profile # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -108,7 +108,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
 contact_note: >
-   the best way to reach me number +212775833517
+   You can reach out to me by email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -154,7 +154,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: Younss-Elbrag # put your disqus shortname
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -237,9 +237,31 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets"
+      path: assets/**/*.*"
     values:
       sitemap: false
+
+# Extras
+github: [metadata]
+
+# -----------------------------------------------------------------------------
+# Jekyll optimization
+# -----------------------------------------------------------------------------
+
+# HTML remove comments (<!-- .... -->)
+remove_HTML_comments: false
+
+# HTML beautifier (_plugins/beautify.rb).
+# Source: https://github.com/threedaymonk/htmlbeautifier
+beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
+
+# HTML minify (_plugins/minify.rb).
+# Source: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
+minify: false
+
+# CSS/SASS minify
+sass:
+  style: compressed
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -357,10 +379,10 @@ jekyll-diagrams:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics: false  # enables cronitor RUM analytics
+enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arrangement
+enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
@@ -370,7 +392,6 @@ enable_navbar_social:       false  # enables displaying social links in the
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
 # Library versions
