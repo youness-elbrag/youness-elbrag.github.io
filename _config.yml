@@ -141,10 +141,10 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: deep-matter/youness-elbrag # <your-github-user-name>/<your-github-repo-name>
-  repo_id: R_kgDOJ9eKQQ
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOJ9eKQc4CYBj8
+  repo: youness-elbrag/youness-elbrag.github.io # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOJ_LeLg
+  category: General             # name of the category under which discussions will be created
+  category_id: DIC_kwDOJ_LeLs4CYJ0N
   mapping: title               # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -225,6 +225,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
@@ -378,7 +379,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
