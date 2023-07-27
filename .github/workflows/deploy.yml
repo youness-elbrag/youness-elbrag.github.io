@@ -31,10 +31,13 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Install deps
       run: |
+        pip3 install --upgrade jupyter
         gem install bundler
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         npm install -g mermaid.cli
+        export JEKYLL_ENV=production
+        bundle exec jekyll builds
     - name: Setup deploy options
       id: setup
       run: |
