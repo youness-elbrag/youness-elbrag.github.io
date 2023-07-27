@@ -16,7 +16,7 @@ nav: true
         <h5 class="card-title"><a href="https://iplab.dmi.unict.it/miss/programme.htm" target="_blank">Computer Vision I: Variational Methods</a></h5>
         <h6 class="card-subtitle font-italic">Summer School 2020</h6>
         <br />
-        <h6 class="card-subtitle font-italic">Lectuter: Prof Daniel Cremers <a href="https://cvg.cit.tum.de/members/cremers" target="_blank"> Daniel Cremers</a></h6>
+        <h6 class="card-subtitle font-italic">Lecturer: Prof Daniel Cremers <a href="https://cvg.cit.tum.de/members/cremers" target="_blank"> Daniel Cremers</a></h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
