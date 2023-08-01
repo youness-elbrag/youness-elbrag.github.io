@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vision-Transformer Coronary Artery | Youness El Brag</title>
+    <meta name="author" content="Youness El Brag">
+    <meta name="description" content="Implmentation of Vision-Transformer following Series of Article About Vision-Langauge model , in project i implmented from Scratch">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/9_project/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Youness </span>El Brag</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/courses/">Courses</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">Vision-Transformer Coronary Artery</h1>
+            <p class="post-description">Implmentation of Vision-Transformer following Series of Article About Vision-Langauge model , in project i implmented from Scratch</p>
+          </header>
+
+          <article>
+            <h3 id="vision-transformer">Vision Transformer</h3>
+<p>This repo provide Full Implmentation of VisionTransformer following Series of Article About Vision-Langauge model , in project i implmented from Scratch using <strong>Pytorch</strong>
+we need to kepp mind that there’s no big different only few modifications which include</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project9/vit.gif-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project9/vit.gif-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project9/vit.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project9/vit.gif" class="img-fluid rounded z-depth-1" width="600" height="300" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<ol>
+  <li><a href="#introduction">introduction</a></li>
+  <li><a href="#environment-project">environment project</a></li>
+  <li><a href="#run-project">run project</a></li>
+  <li><a href="#Predict">Predict</a></li>
+</ol>
+
+<h3 id="introduction">introduction</h3>
+
+<h3 id="major-different-bwtween-transformer-in-language-and-vision">Major Different Bwtween Transformer in Language and Vision</h3>
+
+<p>Vision Transformer included few modification in Architicture main are :</p>
+
+<ol>
+  <li>
+    <p><strong>Linear Projection:</strong> that used Convolution Network but not in matter of extract features instead of it used to split the image of size 256x256 into sub-Patches to make the model Transformer able to learn and process the Image because of most used in NLP Seq2Seq modeling , here Linear Projection is make each Patch as <strong>Token in Vector</strong></p>
+  </li>
+  <li>
+    <p><strong>MLP multi- Layer Perceptence:</strong> to make the model do the task classification used MLP because is widely implemented in Classification only we add <strong>CLS</strong></p>
+  </li>
+</ol>
+
+<p><strong>Notation</strong> <strong>in Vision-Transformer only we take Encoder blocks instead of all the model Transfotmer for me infotmation read the Article</strong></p>
+
+<h2 id="1-implementations">1. Implementations</h2>
+
+<p>This is a simplified PyTorch implementation of the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. The goal of this project is to provide a simple and easy-to-understand implementation. The code is not optimized for speed and is not intended to be used for production.</p>
+
+<p>Check out this post for step-by-step guide on implementing ViT in detail.</p>
+
+<h3 id="11-patch-embedding">1.1 Patch Embedding</h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project9/Image_Patch_Embedding-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project9/Image_Patch_Embedding-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project9/Image_Patch_Embedding-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project9/Image_Patch_Embedding.png" class="img-fluid rounded z-depth-1" width="400" height="200" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Patch_Embedding</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span> <span class="p">,</span> <span class="n">Config</span><span class="p">):</span>
+        <span class="nf">super</span><span class="p">(</span><span class="n">Patch_Embedding</span><span class="p">,</span><span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">image_size</span> <span class="o">=</span> <span class="n">Config</span><span class="p">[</span><span class="sh">"</span><span class="s">image_size</span><span class="sh">"</span><span class="p">]</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">patch_size</span> <span class="o">=</span> <span class="n">Config</span><span class="p">[</span><span class="sh">"</span><span class="s">patch_size</span><span class="sh">"</span><span class="p">]</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">num_channel</span> <span class="o">=</span> <span class="n">Config</span><span class="p">[</span><span class="sh">"</span><span class="s">num_Channle</span><span class="sh">"</span><span class="p">]</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">number_patch</span> <span class="o">=</span> <span class="p">(</span> <span class="n">self</span><span class="p">.</span><span class="n">image_size</span> <span class="o">//</span> <span class="n">self</span><span class="p">.</span><span class="n">patch_size</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">hidden_size</span> <span class="o">=</span> <span class="n">Config</span><span class="p">[</span><span class="sh">"</span><span class="s">embedding_size</span><span class="sh">"</span><span class="p">]</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">Projection</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Conv2d</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">num_channel</span> <span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">hidden_size</span> <span class="p">,</span> 
+                                    <span class="n">kernel_size</span><span class="o">=</span><span class="n">self</span><span class="p">.</span><span class="n">patch_size</span> <span class="p">,</span> 
+                                    <span class="n">stride</span><span class="o">=</span><span class="n">self</span><span class="p">.</span><span class="n">patch_size</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span> <span class="p">):</span>
+        <span class="c1"># (batch_size, num_channels, image_size, image_size) -&gt; (batch_size, num_patches, hidden_size)
+</span>        <span class="n">x</span><span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nc">Projection</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">.</span><span class="nf">flatten</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">x</span> 
+</code></pre></div></div>
+
+<h3 id="11-positional-embedding">1.1 Positional Embedding</h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project9/results-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project9/results-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project9/results-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project9/results.png" class="img-fluid rounded z-depth-1" width="400" height="300" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Embeddings</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="sh">"""</span><span class="s">
+    Combine the patch embeddings with the class token and position embeddings.
+    </span><span class="sh">"""</span>
+        
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">config</span> <span class="o">=</span> <span class="n">config</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">patch_embeddings</span> <span class="o">=</span> <span class="nc">Patch_Embedding</span><span class="p">(</span><span class="n">Config</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">cls_token</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Parameter</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">config</span><span class="p">[</span><span class="sh">"</span><span class="s">embedding_size</span><span class="sh">"</span><span class="p">]))</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">position_embeddings</span> <span class="o">=</span> \
+            <span class="n">nn</span><span class="p">.</span><span class="nc">Parameter</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="nf">randn</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">patch_embeddings</span><span class="p">.</span><span class="n">number_patch</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">config</span><span class="p">[</span><span class="sh">"</span><span class="s">embedding_size</span><span class="sh">"</span><span class="p">]))</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="sh">"</span><span class="s">hidden_dropout_prob</span><span class="sh">"</span><span class="p">])</span>
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">patch_embeddings</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">batch_size</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">x</span><span class="p">.</span><span class="nf">size</span><span class="p">()</span>
+        
+        <span class="c1"># Expand the [CLS] token to the batch size
+</span>        <span class="c1"># (1, 1, hidden_size) -&gt; (batch_size, 1, hidden_size)
+</span>        <span class="n">cls_tokens</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">cls_token</span><span class="p">.</span><span class="nf">expand</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="c1"># Concatenate the [CLS] token to the beginning of the input sequence
+</span>        <span class="c1"># This results in a sequence length of (num_patches + 1)
+</span>        <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">cat</span><span class="p">((</span><span class="n">cls_tokens</span><span class="p">,</span> <span class="n">x</span><span class="p">),</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">self</span><span class="p">.</span><span class="n">position_embeddings</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">x</span>
+</code></pre></div></div>
+
+<h3 id="environment-project">environment project</h3>
+
+<p>first Creat an ENV to run the poject in Dir</p>
+
+<p><strong>Packages</strong>:</p>
+<ol>
+  <li>numpy</li>
+  <li>torchmetrics</li>
+  <li>matplotlib</li>
+  <li>torch</li>
+  <li>torchvision</li>
+  <li>pytorch-lightning</li>
+  <li>opencv-python</li>
+</ol>
+
+<ul>
+  <li>create the enviromenet here you will need to run</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create <span class="nt">--name</span> Segemnetation <span class="nv">python</span><span class="o">=</span>3.6
+</code></pre></div></div>
+
+<ul>
+  <li>make sure the requirements.txt exist to the repo 
+the packges if you want fisrt neeed to run</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div></div>
+<h3 id="run-project">run project</h3>
+<p>in The transformer model there’s many og Hyper-Parameters to tune baed on the exprement
+ and data Size , to make easy to Tune the model there’s Script Called <strong>CONFIG.py</strong>
+ contain all the Parameters setup based on your purpose it will automatically Generate YAML config.yml FILE</p>
+
+<p><strong>Notation</strong> : in this project i used <strong>Pytorch-Lighting Framework</strong> because is easy to creat Loop Traning and use Mulit-GPU</p>
+
+<p>to Run the model Traninig Folowwing Commmand :
+after finishing the Traning a<strong>uto-Checkpoint Save model</strong> Called <strong>ViT.ckpt</strong> will save in current Folder project</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="n">python</span> <span class="n">train</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">Config</span> <span class="n">config</span><span class="p">.</span><span class="n">yml</span> <span class="o">--</span><span class="n">device</span>  <span class="sh">"</span><span class="s">gpu</span><span class="sh">"</span>
+</code></pre></div></div>
+
+<h3 id="predict">Predict</h3>
+
+<p>After the Training is done  Run Predict.py to check the prediction using Save <strong>CHECKPOINT</strong> following Command:
+Path_Checkpoint</p>
+
+<p><strong>INSERT_Val_DATA: this one should be Validation data or TestDATA already processed</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="n">python</span> <span class="n">predict</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">Path</span> <span class="n">INSERT_Val_DATA</span>  <span class="o">--</span> <span class="n">Path_Checkpoint</span> <span class="n">INSERT_CHECKPOINT_MODEL</span> <span class="o">--</span><span class="n">OUTPUT</span> <span class="n">INSERT_OUTPUT_STR</span><span class="p">.</span><span class="n">PNG</span>
+</code></pre></div></div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project9/att-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project9/att-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project9/att-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project9/att.png" class="img-fluid rounded z-depth-1" width="600" height="500" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+
+          </article>
+
+        </div>
+
+      
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Youness El Brag. Last updated: August 01, 2023.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/assets/js/no_defer.js"></script>
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    
+    
+
+  </body>
+</html>

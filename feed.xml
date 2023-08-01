@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://youness-elbrag.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://youness-elbrag.github.io//" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-01T18:33:16+00:00</updated><id>https://youness-elbrag.github.io//feed.xml</id><title type="html">blank</title><subtitle>the Offcial Website Protofilio to look at all my works .
+</subtitle><entry><title type="html">Overview of Last LLM in Medicine like never know before now</title><link href="https://youness-elbrag.github.io//blog/2023/overview-of-last-llm-in-medicine-like-never-know-before-now/" rel="alternate" type="text/html" title="Overview of Last LLM in Medicine like never know before now" /><published>2023-08-01T16:43:29+00:00</published><updated>2023-08-01T16:43:29+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/overview-of-last-llm-in-medicine-like-never-know-before-now</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/overview-of-last-llm-in-medicine-like-never-know-before-now/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Transformer Explained in Depth with code</title><link href="https://youness-elbrag.github.io//blog/2023/jupyter-notebook/" rel="alternate" type="text/html" title="Transformer Explained in Depth with code" /><published>2023-07-04T12:57:00+00:00</published><updated>2023-07-04T12:57:00+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/jupyter-notebook</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/jupyter-notebook/"><![CDATA[<h3 id="transfomers">Transfomers</h3>
+
+<ul>
+  <li>Now that you understand the main model components and the general idea, let’s take a look at the full model.Intuitively, the model is exactly what we discussed before. In the encoder, the tokens communicate with each other and update their representation. In the decoder, the target token first looks at the previously generated target token, then the source, and finally updates its representation.</li>
+</ul>
+
+
+
+
+    <div
+  class="jupyter-notebook"
+  style="position: relative; width: 100%; margin: 0 auto;">
+  <div class="jupyter-notebook-iframe-container">
+    <iframe
+      src="/assets/jupyter/blog.ipynb.html"
+      style="position: absolute; top: 0; left: 0; border-style: none;"
+      width="100%"
+      height="100%"
+      onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe>
+  </div>
+</div>
+
+
+
+<!-- {::nomarkdown}
+
+
+
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+
+{:/nomarkdown} -->
+
+<p>Note that the jupyter notebook supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="jupyter" /><summary type="html"><![CDATA[Re-implmentation of Paper Attention All you need Transformer]]></summary></entry><entry><title type="html">Generating New Drug SMILES Data Using Model RNN-LTSM</title><link href="https://youness-elbrag.github.io//blog/2023/jupyter-notebook/" rel="alternate" type="text/html" title="Generating New Drug SMILES Data Using Model RNN-LTSM" /><published>2023-07-04T12:57:00+00:00</published><updated>2023-07-04T12:57:00+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/jupyter-notebook</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/jupyter-notebook/"><![CDATA[<h3 id="de-novo-simply-means-to-synthesize-ltsm-rnn">De novo simply means to synthesize LTSM-RNN</h3>
+
+<ul>
+  <li>My current task involves training a Recurrent Neural Network (RNN) to generate new molecules, known as de novo synthesis. The RNN learns patterns from SMILES strings, which are string representations of molecules based on their structure and components. This approach enables the model to produce valid molecules as output, as SMILES provides a computer-friendly representation of molecules.</li>
+</ul>
+
+
+
+
+    <div
+  class="jupyter-notebook"
+  style="position: relative; width: 100%; margin: 0 auto;">
+  <div class="jupyter-notebook-iframe-container">
+    <iframe
+      src="/assets/jupyter/blog_chemi.ipynb.html"
+      style="position: absolute; top: 0; left: 0; border-style: none;"
+      width="100%"
+      height="100%"
+      onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe>
+  </div>
+</div>
+
+
+
+<!-- {::nomarkdown}
+
+
+
+    <p>Sorry, the notebook you are looking for does not exist.</p>
+
+{:/nomarkdown} -->
+
+<p>Note that the jupyter notebook supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="jupyter" /><summary type="html"><![CDATA[De novo simply means to synthesize new . The idea is the train the model to learn patterns in SMILES strings so that the output generated can match valid molecules]]></summary></entry><entry><title type="html">Physics of Language Model || Vision-Transformer Biomedical Image part 2</title><link href="https://youness-elbrag.github.io//blog/2023/physics-of-language-model-vision-transformer-biomedical-image-part-2/" rel="alternate" type="text/html" title="Physics of Language Model || Vision-Transformer Biomedical Image part 2" /><published>2023-06-04T17:25:49+00:00</published><updated>2023-06-04T17:25:49+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/physics-of-language-model--vision-transformer-biomedical-image-part-2</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/physics-of-language-model-vision-transformer-biomedical-image-part-2/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Physics of Language Model || Transformer part 1</title><link href="https://youness-elbrag.github.io//blog/2023/physics-of-language-model-transformer-part-1/" rel="alternate" type="text/html" title="Physics of Language Model || Transformer part 1" /><published>2023-05-31T17:58:48+00:00</published><updated>2023-05-31T17:58:48+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/physics-of-language-model--transformer-part-1</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/physics-of-language-model-transformer-part-1/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Software 1.0 Vs Software 2.0: Revolutions of Next Generation Applications Powered by AI</title><link href="https://youness-elbrag.github.io//blog/2023/software-10-vs-software-20-revolutions-of-next-generation-applications-powered-by-ai/" rel="alternate" type="text/html" title="Software 1.0 Vs Software 2.0: Revolutions of Next Generation Applications Powered by AI" /><published>2023-02-15T21:10:39+00:00</published><updated>2023-02-15T21:10:39+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/software-10-vs-software-20-revolutions-of-next-generation-applications-powered-by-ai</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/software-10-vs-software-20-revolutions-of-next-generation-applications-powered-by-ai/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">the Benefit of Learning from the Frequency Domain in Segmentation Biomedical Images</title><link href="https://youness-elbrag.github.io//blog/2023/the-benefit-of-learning-from-the-frequency-domain-in-segmentation-biomedical-images/" rel="alternate" type="text/html" title="the Benefit of Learning from the Frequency Domain in Segmentation Biomedical Images" /><published>2023-02-02T20:47:59+00:00</published><updated>2023-02-02T20:47:59+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/the-benefit-of-learning-from-the-frequency-domain-in-segmentation-biomedical-images</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/the-benefit-of-learning-from-the-frequency-domain-in-segmentation-biomedical-images/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Measuring Neural Network Performance: Latency and Throughput on GPU</title><link href="https://youness-elbrag.github.io//blog/2023/measuring-neural-network-performance-latency-and-throughput-on-gpu/" rel="alternate" type="text/html" title="Measuring Neural Network Performance: Latency and Throughput on GPU" /><published>2023-02-01T16:00:10+00:00</published><updated>2023-02-01T16:00:10+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/measuring-neural-network-performance-latency-and-throughput-on-gpu</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/measuring-neural-network-performance-latency-and-throughput-on-gpu/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">The Fast Fourier Convolution Network: A Fast and Efficient Approach for Convolutional Neural…</title><link href="https://youness-elbrag.github.io//blog/2023/the-fast-fourier-convolution-network-a-fast-and-efficient-approach-for-convolutional-neural/" rel="alternate" type="text/html" title="The Fast Fourier Convolution Network: A Fast and Efficient Approach for Convolutional Neural…" /><published>2023-01-05T18:44:51+00:00</published><updated>2023-01-05T18:44:51+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/the-fast-fourier-convolution-network-a-fast-and-efficient-approach-for-convolutional-neural</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/the-fast-fourier-convolution-network-a-fast-and-efficient-approach-for-convolutional-neural/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">Multi-Instance Learning for Biomedical Image Analysis</title><link href="https://youness-elbrag.github.io//blog/2023/multi-instance-learning-for-biomedical-image-analysis/" rel="alternate" type="text/html" title="Multi-Instance Learning for Biomedical Image Analysis" /><published>2023-01-03T20:24:56+00:00</published><updated>2023-01-03T20:24:56+00:00</updated><id>https://youness-elbrag.github.io//blog/2023/multi-instance-learning-for-biomedical-image-analysis</id><content type="html" xml:base="https://youness-elbrag.github.io//blog/2023/multi-instance-learning-for-biomedical-image-analysis/"><![CDATA[]]></content><author><name></name></author></entry></feed>

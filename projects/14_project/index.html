@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Youness El Brag</title>
+    <title>SMS Sender Tool | Youness El Brag</title>
     <meta name="author" content="Youness El Brag">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="tool created to show how to Send SMS using Different APIs Providers">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://youness-elbrag.github.io//404.html">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/14_project/">
 
     <!-- Dark Mode -->
     
@@ -121,12 +120,175 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">SMS Sender Tool</h1>
+            <p class="post-description">tool created to show how to Send SMS using Different APIs Providers</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <h2 id="sms-python-sender">SMS python Sender</h2>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/redirect/logo-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/redirect/logo-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/redirect/logo-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/redirect/logo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h3 id="how-to-use-tool">how to use <strong>TOOL</strong>
+</h3>
+<p>this tool created to show how to Send SMS using Different APIs Providers under Lecience MIT
+the rules of are :</p>
+<ul>
+  <li><strong><em>Educational Purpose</em></strong></li>
+  <li><strong><em>not responsible for Illigal use case</em></strong></li>
+  <li>
+<strong><em>Share how to building Automated Tool</em></strong>
+    <h3 id="installation">Installation</h3>
+  </li>
+  <li>
+<strong>install</strong>&lt;/br&gt;
+the tool in Local machine , this version only support Linux Distro RUN Following command:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">chmod </span>a+x installer.sh <span class="o">&amp;&amp;</span> ./installer.sh <span class="nt">--install</span> 
+</code></pre></div></div>
+<ul>
+  <li>
+<strong>run</strong>&lt;/br&gt;
+to run the tool make sure you already installed all the Packages :</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./installer.sh <span class="nt">--run</span>
+</code></pre></div></div>
+<ul>
+  <li>
+<strong>help</strong>&lt;/br&gt;
+check other availebel option RUN :</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./installer.sh <span class="nt">--help</span> 
+</code></pre></div></div>
+<h3 id="information-about-haydra-sms-">information about <strong>Haydra-SMS</strong> :</h3>
+<ul>
+  <li>
+    <p><strong>APIs Credentials :</strong>
+The tool created to Send SMS and Verification numbers , to be able to use the tool you have to have at least one of this account to access the APIs Credentials Visit the Offcial websites :</p>
+
+    <ul>
+      <li><a href="https://www.nexmo.com" rel="external nofollow noopener" target="_blank"><strong>Nexmo</strong></a></li>
+      <li><a href="https://www.twillo.com" rel="external nofollow noopener" target="_blank"><strong>Twillo</strong></a></li>
+      <li><a href="https://www.textlocal.com" rel="external nofollow noopener" target="_blank"><strong>textlocal</strong></a></li>
+      <li><a href="https://www.Textbelt.com" rel="external nofollow noopener" target="_blank"><strong>Textbelt</strong></a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>after get the API Credentials you have to Put the Secrets in Configuration File called <strong>APIs_Accounts_Credentials.cfg</strong></p>
+
+<p><strong>Note</strong> : Avoid using “” this when you put Credentials and make sure read Documentation AAPI</p>
+<pre><code class="language-YAML">  [Textlocal]
+  api_key=  your-generated-key
+  sender = Dofus
+  [Nexmo]
+  api_key =  your-generated-key
+  secret_key =  your-secret-key
+  sender = Your-Sener-Name
+  [Twillo]
+  account_sid= your-generated-key
+  token_key = "your-token-key"
+  Twillo_number = "your Twillo number"
+  [textbelt]
+  api_key = "your-generated-key"
+</code></pre>
+<ul>
+  <li>
+<strong>How to USE Tool:</strong>
+when you run the tool will show options , <strong>SMS-python-Sender</strong> provide many Providers APIs Senders , choice one you have <strong>Credential API</strong>
+</li>
+</ul>
+
+<ol>
+  <li>
+<strong>OPTIONS</strong>
+    <ul>
+      <li>
+<strong>(1)</strong> : is allowing to choice one APIs to send</li>
+      <li>
+<strong>FILE LIST NUMBERS</strong> : you need to setup <strong>list_number.txt</strong> and set all the phone numbers you want to send SMS and <strong>MAKE SURE TO WRITE NUMBER WITH COUNTRY CODE</strong>
+</li>
+      <li>
+<strong>(2)</strong> : Phone validation to ensure the SMS will deliver into existence phone . after chose this check <strong>Output</strong> Folder to use filtering phone <strong>True</strong>
+</li>
+    </ul>
+  </li>
+  <li>
+<strong>EORRO HANDLING</strong>
+this tool is take considration of EORRO HANDLING which means it handle the respond Status if <strong>SENT</strong> or <strong>ERROR</strong>
+    <ul>
+      <li>Screenshot ERROR HANDLING:</li>
+    </ul>
+  </li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/redirect/Screenshot_t-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/redirect/Screenshot_t-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/redirect/Screenshot_t-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/redirect/Screenshot_t.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<ol>
+  <li><strong>ScreenShot</strong></li>
+</ol>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/redirect/Screenshot-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/redirect/Screenshot-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/redirect/Screenshot-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/redirect/Screenshot.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
 
           </article>
 

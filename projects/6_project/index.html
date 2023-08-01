@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Youness El Brag</title>
+    <title>Pyramid Position Encoding Generator | Youness El Brag</title>
     <meta name="author" content="Youness El Brag">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="this porject is supported by Jordan University of science and Technology , Multi-instance Learning approach based on Transformer">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://youness-elbrag.github.io//404.html">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/6_project/">
 
     <!-- Dark Mode -->
     
@@ -121,12 +120,71 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Pyramid Position Encoding Generator</h1>
+            <p class="post-description">this porject is supported by Jordan University of science and Technology , Multi-instance Learning approach based on Transformer</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <h1 id="coronaries-arteries-diseases-weakly-supervised-learning-based-method">Coronaries Arteries Diseases Weakly supervised Learning based method</h1>
+<p>this porject is supported by Jordan University of science and Technology , alonge side with this research we explored a paper that introduced <a href="https://arxiv.org/abs/2106.00908" rel="external nofollow noopener" target="_blank">Multi-instance Learning approach based on Transformer</a> in our mission we Re-design PPGE method for more efficient training by improvig <strong>Convolution with Fast Fourier Transform</strong> which called the method Fast Fourier Postional encoding <strong>FFPE</strong></p>
+
+<p><strong>Notation:</strong> the implementation still under progres as long as we are trying to collect dataset of Coronaries-Arteries-Diseases
+now tried to test the approach on Data from <a href="https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/screening-mammography-breast-cancer-detection-ai-challenge" rel="external nofollow noopener" target="_blank">Kaggle RSNA Screening Mammography Breast Cancer Detection</a></p>
+<h3 id="introduction">Introduction</h3>
+
+<p>Multiple instance learning (MIL) is a powerful tool to solve the weakly supervised classification in whole slide image (WSI) based pathology diagnosis. However, the current MIL methods are usually based on independent and identical distribution hypothesis, thus neglect the correlation among different instances. To address this problem, we proposed a new framework, called correlated MIL, and provided a proof for convergence. Based on this framework, we devised a Transformer based MIL (TransMIL) used within Fast Fourire to Enhanced Pyramid Position Encoding Generator Projection Linear System ,</p>
+
+<div align="center">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project6/img-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project6/img-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project6/img-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project6/img.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<ul>
+  <li>Setup the ENV:
+    <ul>
+      <li>
+        <p>Create the environment</p>
+
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> conda create --name TransFFT-MIL python=3.6
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>install the requirements</p>
+
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  pip install -r requirements.txt  
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Run the code :
+    <ul>
+      <li>training model &lt;/br&gt;
+ <strong>Note</strong> in our experiment we Re-Developed two approaches based Positional Encodings methods <strong>FFTPEG</strong> and <strong>FF_ATPEG</strong>
+ that can be changed in TransFFPEG.py file</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="n">python</span> <span class="n">train</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">stage</span> <span class="sh">'</span><span class="s">train</span><span class="sh">'</span> <span class="o">--</span><span class="n">gpus</span> <span class="mi">0</span> <span class="o">--</span><span class="n">Epochs</span> <span class="mi">200</span>
+</code></pre></div></div>
+
+<p>The Full code in Github:  (read more about the <a href="https://github.com/deep-matter/TransFFT-MILCoronaries-Arteries/tree/main" rel="external nofollow noopener" target="_blank">Prohect Github</a></p>
 
           </article>
 

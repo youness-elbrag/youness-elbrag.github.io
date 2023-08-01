@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Youness El Brag</title>
+    <title>Medical Application Signs Detection Image | Youness El Brag</title>
     <meta name="author" content="Youness El Brag">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="End-To-End Web Application which implmented Training Models and Deploymenet using Docker and Streamlite">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://youness-elbrag.github.io//404.html">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/5_project/">
 
     <!-- Dark Mode -->
     
@@ -121,12 +120,58 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Medical Application Signs Detection Image</h1>
+            <p class="post-description">End-To-End Web Application which implmented Training Models and Deploymenet using Docker and Streamlite</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <p>This Project include all the Techno used Such Docker and TensorFlow</p>
+
+<h4 id="project-intro">Project Intro</h4>
+<p>this repo contain the full the project DL with Web appplication using Streamlit for deployment</p>
+
+<h4 id="installation">Installation</h4>
+
+<p>i provided the Docker Image to run Directly which contain all the app requimemnts ,
+to run the Docker images following command :</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    docker pull ghcr.io/deep-matter/streamlit:latset 
+</code></pre></div></div>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    docker run <span class="nt">-i</span> <span class="nt">-t</span> streamlit:latset
+</code></pre></div></div>
+<h3 id="model-traning">Model Traning</h3>
+
+<p>here we used Convolution Neual network to develope a model for predicting the signs of patient based on the Eyes from Images the code can found in Colab <a href="https://colab.research.google.com/drive/1o7USeyjTLjmgjjGXkQLt96HYNAbc_r7j" rel="external nofollow noopener" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Colab"></a></p>
+
+<h3 id="docker-compose">Docker-Compose</h3>
+
+<p>also you can run app using docker-compose command follwing you need to keep docker-compose.yml in root folder</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    docker-compose up 
+</code></pre></div></div>
+
+<p>InterFace Application :</p>
+
+<div align="center">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project2/logo-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project2/logo-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project2/logo-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project2/logo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+</div>
+
+<p>The Full code in Github:  (read more about the <a href="https://github.com/deep-matter/Medical_Application_Streamlit/tree/main" rel="external nofollow noopener" target="_blank">Prohect Github</a></p>
 
           </article>
 

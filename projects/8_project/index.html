@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Youness El Brag</title>
+    <title>The ETL Data Pipeline Big data | Youness El Brag</title>
     <meta name="author" content="Youness El Brag">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="The ETL (Extract, Transform, Load) process is a common data integration process used in data warehousing">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://youness-elbrag.github.io//404.html">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/8_project/">
 
     <!-- Dark Mode -->
     
@@ -121,12 +120,82 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">The ETL Data Pipeline Big data</h1>
+            <p class="post-description">The ETL (Extract, Transform, Load) process is a common data integration process used in data warehousing</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <h1 id="etl-bigdata">ETL BigData</h1>
+
+<p>This repository contains a web application for performing ETL (Extract, Transform, Load) processes on data and saving it in a database. It utilizes Flask as a web framework and Elastic Search for logs.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" align="center">
+    <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project8/ing-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project8/ing-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project8/ing-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project8/ing.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+
+<h4 id="etl-process">ETL Process</h4>
+
+<p>The ETL (Extract, Transform, Load) process is a common data integration process used in data warehousing and analytics. Here’s a brief explanation of each step:</p>
+
+<ol>
+  <li>Extract:
+    <ul>
+      <li>The extract step involves retrieving data from various sources, such as databases, files, APIs, or web scraping.</li>
+      <li>In the context of this application, users can insert files in XLSX or CSV format to extract the data.</li>
+    </ul>
+  </li>
+  <li>Transform:
+    <ul>
+      <li>The transform step involves cleaning, validating, and transforming the extracted data into a suitable format for analysis or storage.</li>
+      <li>This application provides functions for cleaning and managing the data, allowing users to apply transformations to the extracted data.</li>
+    </ul>
+  </li>
+  <li>Load:
+    <ul>
+      <li>The load step involves storing the transformed data into a target database or data warehouse for further analysis and reporting.</li>
+      <li>The application saves the transformed data into a database for future retrieval and analysis.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="frameworks-and-tools">Frameworks and Tools</h4>
+
+<p>The ETL_BigData application leverages the following frameworks and tools:</p>
+
+<ul>
+  <li>Flask: Flask is a lightweight and extensible web framework used for developing web applications.</li>
+  <li>Elastic Search: Elastic Search is a distributed, RESTful search and analytics engine capable of handling large amounts of data and providing powerful search capabilities.</li>
+</ul>
+
+<h4 id="getting-started">Getting Started</h4>
+
+<p>To get started with the application, you need to install the required dependencies listed in <code class="language-plaintext highlighter-rouge">requirements.txt</code>. Run the following command to install them:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="p">.</span><span class="n">txt</span>
+</code></pre></div></div>
+<h4 id="running-the-etl-app">Running the ETL App</h4>
+
+<p>To run the ETL_App, execute the following command:</p>
+
+<p>```python
+python app.py</p>
 
           </article>
 

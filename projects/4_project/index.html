@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Youness El Brag</title>
+    <title>Post-Processing 3D Medical DATA | Youness El Brag</title>
     <meta name="author" content="Youness El Brag">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="automated tool to Post-Processing the data Brain">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://youness-elbrag.github.io//404.html">
+    <link rel="canonical" href="https://youness-elbrag.github.io//projects/4_project/">
 
     <!-- Dark Mode -->
     
@@ -121,12 +120,105 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Post-Processing 3D Medical DATA</h1>
+            <p class="post-description">automated tool to Post-Processing the data Brain</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <h3 id="post-processing">Post-Processing</h3>
+<p>the automated tool to Post-Processing the data Brain Tumor include n4 bias Correction and Skull Stripinng</p>
+
+<ul>
+  <li>
+    <p>PostProcessig dataset Brast2020;</p>
+
+    <p>this tool built based on top of BET algorithm that publish from <a href="https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET" rel="external nofollow noopener" target="_blank">FSL</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/20378467/" rel="external nofollow noopener" target="_blank">N4baisCorrection</a> we automated the process and handle the data in 3D shape</p>
+
+    <ul>
+      <li>
+        <p>installation Requires packages</p>
+
+        <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>    <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="p">.</span><span class="n">txt</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>tool description ;</p>
+
+        <p>we develpoed a simple tool that helps to Post Processing the dstaset</p>
+        <ul>
+          <li>N4 bais Correction field this will increase the Low intensity of the image to run :&lt;/br&gt;</li>
+        </ul>
+
+        <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  <span class="n">python</span> <span class="n">Postprocessing</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">config</span> <span class="sh">'</span><span class="s">data_Brast.yaml</span><span class="sh">'</span> <span class="o">--</span><span class="n">path</span> <span class="n">Processed</span> <span class="o">--</span><span class="n">n4baiscorrection</span> 
+</code></pre></div>        </div>
+
+        <ul>
+          <li>Skull Stripping this technic helps to reduce tissues such skull and midbrain .. only we do care about in our project is brain tissues to tun it :&lt;/br&gt;</li>
+        </ul>
+
+        <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  <span class="n">python</span> <span class="n">Postprocessing</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">config</span> <span class="sh">'</span><span class="s">data_Brast.yaml</span><span class="sh">'</span> <span class="o">--</span><span class="n">path</span> <span class="n">Processed</span> <span class="o">--</span><span class="n">skull_stripping</span> 
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Virtualization  dataset Brast2020;</p>
+        <ul>
+          <li>
+            <p>vitualize few samples from the data you need to run this command</p>
+
+            <ul>
+              <li>the Options to plot the corrected with oring img 
+  type_plot:</li>
+            </ul>
+
+            <ol>
+              <li>option 1 -&gt; Anat</li>
+              <li>option 2 -&gt;  epi</li>
+              <li>option 3 -&gt; img</li>
+            </ol>
+
+            <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  <span class="n">python</span> <span class="n">virtaulizer</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">corrected_samples</span> <span class="o">--</span><span class="n">type_plot</span> <span class="n">option</span>  
+</code></pre></div>            </div>
+          </li>
+          <li>
+            <p>for rendering the images in 3D or 2d slices you will need to run</p>
+
+            <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>  <span class="n">python</span> <span class="n">virtaulizer</span><span class="p">.</span><span class="n">py</span> <span class="o">--</span><span class="n">v2Drender</span>
+</code></pre></div>            </div>
+          </li>
+          <li>
+            <p>this commaned may takes will depends on the GPU perfomence you have</p>
+
+            <p>```python
+  python virtualizer.py –v3Drender</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div align="center">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/project5/res-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/project5/res-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/project5/res-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/project5/res.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
           </article>
 
